@@ -62,7 +62,7 @@ const Login = () => {
                     onChange={e => handleChange(e)}
                 />
                 {loading && <LoadingPlaceholder />}
-                {!loading && <button type="submit" className="btn-primary blue w-full mt-5">Inloggen</button>}
+                {!loading && <button type="submit" className="btn-primary blue w-full mt-5 rounded-xl">Inloggen</button>}
                 {/* <hr className="my-4" />
                 <span className="text-center block">
                     <a href="/reset_password">
