@@ -1,0 +1,29 @@
+{
+	"guest_OS": "UBUNTU_64",
+	"name": "ALLES MAG KAPOT - TEST 3 BOOT",
+	"placement": {
+		"datastore": "datastore-1009",
+		"folder": "group-v1002",
+		"host": "host-1008"
+	},
+	"cpu": {
+		"count": 4,
+		"hot_add_enabled": false,
+		"hot_remove_enabled": false,
+		"cores_per_socket": 1
+	},
+	"memory": {
+		"hot_add_enabled": false,
+		"size_MiB": 4096
+	},
+	"nics": [{
+		"backing": {
+			"type": "STANDARD_PORTGROUP",
+			"network": "network-1029"
+		}
+	}],
+
+	"storage_policy": {
+		"policy": ""
+	}
+}
